@@ -4,12 +4,12 @@ This action prints "Hello World" or "Hello" + the name of person to greet
 
 ## Inputs
 
-## who-to-greet
-**Required** The name of the person to greet. Default "World"
+## `who-to-greet`
+**Required** The name of the person to greet. Default `"World"`
 
 ## Output
 
-## time
+## `time`
 
 The time we greet you
 
