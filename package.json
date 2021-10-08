@@ -4,7 +4,7 @@
   "description": "This action prints \"Hello World\" or \"Hello\" + the name of person to greet",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "mocha ./tests/* --exit",
     "start": "node app.js",
     "dev": "nodemon app.js"
   },
